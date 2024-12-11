@@ -1,0 +1,6 @@
+.venv/
+
+input/
+face_landmarker.task
+mp_data.pkl
+output.mp4
