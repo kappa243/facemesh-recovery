@@ -1,8 +1,7 @@
 
 ## Usage:
 
-1. Record or use any type of video. Face should take up most of the
-frame space
+1. Record or use any type of video.
 
 2. Extract frames from the video using ffmpeg (you can increase the fps to get more frames that can be detected by the parsing process
 and used for landmark recovery)
@@ -11,10 +10,10 @@ and used for landmark recovery)
 ffmpeg -i "file.mp4" -qscale:v 2 -vf fps=30 "input/frame_%04d%.jpg"
 ```
 
-3. Download latest face_landmark model
+3. Download latest pose landmark model
 
 ```sh
-curl -o face_landmarker.task https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
+curl -o https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/latest/pose_landmarker_full.task
 ```
 
 4. Edit parameters at the top of the notebook -
