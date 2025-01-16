@@ -5,4 +5,5 @@ face_landmarker.task
 pose_landmarker_heavy.task
 pose_landmarker_full.task
 mp_data*
-output.mp4
+output*.mp4
+subject*.mp4
