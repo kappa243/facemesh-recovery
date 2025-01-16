@@ -2,5 +2,8 @@
 
 input/
 face_landmarker.task
-mp_data.pkl
-output.mp4
+pose_landmarker_heavy.task
+pose_landmarker_full.task
+mp_data*
+output*.mp4
+subject*.mp4
